@@ -1,0 +1,500 @@
+2019-09-06 06:59:38	DEBUG	WebInterstitialWithJava       	Registering custom template 
+2019-09-06 06:59:38	DEBUG	TextNowApp                    	ANR detection time: 5000 msec 
+2019-09-06 06:59:38	DEBUG	LeanplumInitializeMonitor     	Leanplum SDK state: InitializationPhase.OFFLINE_DATA_READY -> InitializationPhase.SDK_INITIALIZED bitwise 11 
+2019-09-06 06:59:38	VERBOSE	DeviceInformation             	Installer: com.android.vending
+2019-09-06 06:59:38	VERBOSE	DeviceInformation             	Device: samsung SM-J337V (j3topeltevzw)
+2019-09-06 06:59:38	VERBOSE	DeviceInformation             	ABIs: armeabi-v7a, armeabi 
+2019-09-06 06:59:38	DEBUG	LeanplumUtils                 	Saving attribute: package_installer with value com.android.vending 
+2019-09-06 06:59:38	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: attribute 
+2019-09-06 06:59:38	DEBUG	LeanPlumReportingRunnable     	Saved attribute(s) with: 1 key-value pair(s) 
+2019-09-06 06:59:38	DEBUG	EmogiUtils                    	Using Emogi production environment 
+2019-09-06 06:59:38	DEBUG	TextNowApp                    	End Asynchronous Application Initialization. Execution time in background: 278 
+2019-09-06 06:59:38	DEBUG	LaunchActivity                	showNewAuthorizationFlow = false 
+2019-09-06 06:59:39	DEBUG	TextNow                       	WelcomeActivity on create: register receiver 
+2019-09-06 06:59:39	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: Network Changed - Wifi 
+2019-09-06 06:59:39	DEBUG	AuthorizationCommonActivity   	verifying user 
+2019-09-06 06:59:39	DEBUG	AuthorizationCommonActivity   	User is signed in 
+2019-09-06 06:59:39	DEBUG	LeanPlumReportingRunnable     	Saved event: Network Changed - Wifi without info 
+2019-09-06 06:59:39	DEBUG	AuthorizationCommonActivity   	Conversations are loaded, checking phone number and proceeding 
+2019-09-06 06:59:39	INFO	AuthorizationCommonActivity   	User is signed in - starting MainActivity 
+2019-09-06 06:59:39	DEBUG	WelcomeActivity               	Not proceeding with onCreate, super activity is finishing 
+2019-09-06 06:59:39	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: Network Changed - Wifi 
+2019-09-06 06:59:39	DEBUG	NetworkConnectivityReceiver   	Network state changed. Connected: true 
+2019-09-06 06:59:39	DEBUG	NetworkConnectivityReceiver   	onMobileDataConnected: false 
+2019-09-06 06:59:39	DEBUG	LeanPlumReportingRunnable     	Saved event: Network Changed - Wifi without info 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	onCreate() called with: savedInstanceState = [null] 
+2019-09-06 06:59:39	DEBUG	TextNowApp                    	This will be a cold start. Resetting timer. 
+2019-09-06 06:59:39	DEBUG	TextNow                       	MainActivity on create: register receiver 
+2019-09-06 06:59:39	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: Network Changed - Wifi 
+2019-09-06 06:59:39	DEBUG	LeanPlumReportingRunnable     	Saved event: Network Changed - Wifi without info 
+2019-09-06 06:59:39	VERBOSE	MainControllerBase            	onActivityViewReady 
+2019-09-06 06:59:39	VERBOSE	MainControllerBase            	onActivityCreated 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (4):UpdateUnifiedInboxSettingTask 
+2019-09-06 06:59:39	DEBUG	MainControllerOnePane         	Pushing parent fragment: ConversationListFragment{192f41a (74495183-999c-4139-b2cd-fedede32dec2)} 
+2019-09-06 06:59:39	DEBUG	MainControllerBase            	commitFragmentTransaction: BackStackEntry{80e0b4b} 
+2019-09-06 06:59:39	DEBUG	MainControllerOnePane         	New back stack depth: 1 
+2019-09-06 06:59:39	DEBUG	InAppPurchaseWrapper          	start In-app billing setup... 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	Starting in-app billing setup. 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	handleExternalLaunchIntent() called with: intent = [Intent { flg=0x10000000 cmp=com.enflick.android.TextNow/.activities.MainActivity (has extras) }] 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (5):GetBlockedContactsTask 
+2019-09-06 06:59:39	INFO	PhotoManager                  	Avail mem: 1814548480 
+2019-09-06 06:59:39	INFO	PhotoManager                  	Cache adj: 1.0 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	Setting the http client 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	BlocksGet URI: https://api.textnow.me/api2.0/blocks?client_type=TN_ANDROID&client_id=44e8fdb155addc974d36e737155c7cd492712f55cb262f0x3800401004d67b54&signature=a5b513cbc82835951c5d39f7e64089cf 
+2019-09-06 06:59:39	INFO	PushIntentServiceImpl         	Registering with FCM. User has existing token = false 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	Running rest of tasks in background 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	onCreated: before check ESN 
+2019-09-06 06:59:39	DEBUG	AppUtils                      	Converting IMEID from 352067108321640 to 35206710832164 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (6):GetUserInfoTask 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Finished running task without service (4):UpdateUnifiedInboxSettingTask in 123ms 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (8):GetRatesForCountriesTask 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (7):GetWalletTask 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (9):ReportIdfaTask 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	CheckESN: skipping, next schedule on 9/13/19 6:59 AM 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	onCreate completed 254 ms 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	onStart() called 
+2019-09-06 06:59:39	DEBUG	TNFragmentBase                	onFragmentViewCreatedListener not implemented 
+2019-09-06 06:59:39	DEBUG	TextNow                       	ConversationListFragment{192f41a (74495183-999c-4139-b2cd-fedede32dec2) id=0x7f0a0314} onCreateView 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	WalletGet URI: https://api.textnow.me/api2.0/users/leozinn666/wallet?client_type=TN_ANDROID&client_id=44e8fdb155addc974d36e737155c7cd492712f55cb262f0x3800401004d67b54&signature=c46034a5cc29734aa9483501e75c566c 
+2019-09-06 06:59:39	DEBUG	ProxyJobScheduler             	Scheduling ProxyRefreshJob using Android's JobService 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	UsersGet URI: https://api.textnow.me/api2.0/users/leozinn666?client_type=TN_ANDROID&client_id=44e8fdb155addc974d36e737155c7cd492712f55cb262f0x3800401004d67b54&signature=4245b9d2c0f9bbec6f588ea3f15d1737 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	RatesCountriesGet URI: https://api.textnow.me/api2.0/rates/countries?client_type=TN_ANDROID&client_id=44e8fdb155addc974d36e737155c7cd492712f55cb262f0x3800401004d67b54&signature=faf2a1b56008fe5fbaca421587e850fb 
+2019-09-06 06:59:39	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: proxy_check 
+2019-09-06 06:59:39	DEBUG	ConversationListNativeVideoAd 	Should show native video ad: false 
+2019-09-06 06:59:39	DEBUG	TextNow                       	Failed to retrieve GPS location: access appears to be disabled. 
+2019-09-06 06:59:39	DEBUG	TextNow                       	Failed to retrieve network location: access appears to be disabled. 
+2019-09-06 06:59:39	DEBUG	GetMoPubIdTask                	MoPub ID: using default production ID 
+2019-09-06 06:59:39	DEBUG	ConversationListNativeAd      	Specified ad space: 081350453f2b4c2d93341b037d21d4e7 
+2019-09-06 06:59:39	DEBUG	PSTNFallback                  	The last MDN check for this mdn failed. 
+2019-09-06 06:59:39	DEBUG	PSTNFallback                  	This feature is not allowed for this user 
+2019-09-06 06:59:39	DEBUG	MDNRefreshJob                 	Nothing to do because voice fallback isn't ready to be used. 
+2019-09-06 06:59:39	DEBUG	VoiceFallbackPrecheck         	Nothing to do because voice fallback is fresh 
+2019-09-06 06:59:39	INFO	Inbox                         	Updating leanplum inbox from callback 
+2019-09-06 06:59:39	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: LIFECYCLE - OLD AUTHENTICATION FLOW SHOWN 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (11):UpdateLeanplumInboxCacheTask 
+2019-09-06 06:59:39	DEBUG	LeanplumInboxUtils            	Updating Leanplum Inbox Cached row. Number of messages 0 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Finished running task without service (11):UpdateLeanplumInboxCacheTask in 0ms 
+2019-09-06 06:59:39	DEBUG	LeanPlumReportingRunnable     	Saved event: proxy_check with info map 
+2019-09-06 06:59:39	DEBUG	ReportHealthMetricsTask       	Health Metrics - ANRs: 0 Crashes: 0 native crashes 0 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (13):GetContactsTask 
+2019-09-06 06:59:39	DEBUG	LeanPlumReportingRunnable     	Saved event: LIFECYCLE - OLD AUTHENTICATION FLOW SHOWN without info 
+2019-09-06 06:59:39	DEBUG	GetContactsTask               	Contacts retrieved too recently, skipping contacts get 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Finished running task without service (13):GetContactsTask in 2ms 
+2019-09-06 06:59:39	DEBUG	AdSourceCheckerJob            	Submitting job for 43200 seconds from now. If the job was already scheduled, this operation is safe and does nothing. UUID c9658eb3-6118-439b-aa57-e9e2994a3c7c 
+2019-09-06 06:59:39	DEBUG	MainActivitySetupRunnable     	onCreate completed 198 ms 
+2019-09-06 06:59:39	DEBUG	TNPassCodeActivity            	Passcode not setup. Not showing passcode. Not inflating passcode. 
+2019-09-06 06:59:39	VERBOSE	MainControllerBase            	onActivityStart 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	onStart completed 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	updateSipInfoCacheIfRequired() called 
+2019-09-06 06:59:39	WARN	FeatureToggle                 	configuration of Feature Toggle disable_selective_call_service_binding_in_main_activity is empty 
+2019-09-06 06:59:39	WARN	FeatureToggle                 	return default value 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	current version is known to support calling, check if call service is running 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	Call service is not running. 
+2019-09-06 06:59:39	DEBUG	AdjustEventTracking           	Adjust event tracked: session_start 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (15):FetchPacketTestAndHeartbeatServers 
+2019-09-06 06:59:39	VERBOSE	MainControllerBase            	onActivityResume 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (17):GetSubscriptionTask 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (16):FetchTestProfile 
+2019-09-06 06:59:39	DEBUG	DelayedRegistrationUtils      	Regular user. Allowed to use application 
+2019-09-06 06:59:39	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: attribute 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	SubscriptionGet URI: https://api.textnow.me/api2.0/users/leozinn666/subscription?client_type=TN_ANDROID&client_id=44e8fdb155addc974d36e737155c7cd492712f55cb262f0x3800401004d67b54&signature=41f966e87db5874469ed94cfe2ce3d17 
+2019-09-06 06:59:39	DEBUG	LeanPlumReportingRunnable     	Saved attribute(s) with: 7 key-value pair(s) 
+2019-09-06 06:59:39	INFO	NotificationHelper            	Updating badge count to 0 
+2019-09-06 06:59:39	DEBUG	MainActivity                  	onResume completed 
+2019-09-06 06:59:39	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: HOME 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Starting to run task without service (20):UpdateLeanplumInboxCacheTask 
+2019-09-06 06:59:39	DEBUG	LeanplumInboxUtils            	Updating Leanplum Inbox Cached row. Number of messages 0 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Finished running task without service (20):UpdateLeanplumInboxCacheTask in 1ms 
+2019-09-06 06:59:39	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: HOME 
+2019-09-06 06:59:39	DEBUG	LeanPlumReportingRunnable     	Saved state: HOME without info 
+2019-09-06 06:59:39	DEBUG	LeanPlumReportingRunnable     	Saved state: HOME without info 
+2019-09-06 06:59:39	VERBOSE	ShowNPS                       	shouldShowNPS(false, 2019-08-24T16:42:55.055-06:00, 2019-08-17T15:29:11.665-06:00) 
+2019-09-06 06:59:39	DEBUG	BlockedContactUtils           	Retrieved 0 blocked contact values from database 
+2019-09-06 06:59:39	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: Network Changed - Wifi 
+2019-09-06 06:59:39	DEBUG	NetworkConnectivityReceiver   	Network state changed. Connected: true 
+2019-09-06 06:59:39	DEBUG	NetworkConnectivityReceiver   	onMobileDataConnected: false 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	Billing service connected. 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	Checking for in-app billing 3 support. 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	In-app billing version 3 supported for com.enflick.android.TextNow 
+2019-09-06 06:59:39	DEBUG	InAppPurchaseWrapper          	In-app billing setup finished. 
+2019-09-06 06:59:39	DEBUG	InAppPurchaseWrapper          	Setup successful. Querying inventory. 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	Starting async operation: refresh inventory 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	Querying owned items... 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	Package name: com.enflick.android.TextNow 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	Calling getPurchases with continuation token: null 
+2019-09-06 06:59:39	INFO	PushIntentServiceImpl         	Got a push token 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	Owned items response: 0 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	Continuation token: null 
+2019-09-06 06:59:39	DEBUG	IabHelper                     	Querying SKU details. 
+2019-09-06 06:59:39	INFO	TNTask                        	Starting task SetRegistrationIdTask synchronously 
+2019-09-06 06:59:39	DEBUG	KinesisRecorderRunnableBase   	KinesisFirehose recorder initialized. 
+2019-09-06 06:59:39	DEBUG	AppUtils                      	Converting IMEID from 352067108321640 to 35206710832164 
+2019-09-06 06:59:39	DEBUG	SaveSingleRecordRunnableBase  	sessions-prod Record saved: {"created_at":"2019-09-06 12:59:39","event_source":"client","username":"leozinn666","client_type":"TN_ANDROID","client_version":"6.40.0.1","phone_num":"4352556872"}
+2019-09-06 06:59:39	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:39	DEBUG	LeanPlumReportingRunnable     	Saved event: Network Changed - Wifi without info 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Finished running task without service (9):ReportIdfaTask in 414ms 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	SessionPut URI: https://api.textnow.me/api2.0/sessions?client_type=TN_ANDROID&client_id=44e8fdb155addc974d36e737155c7cd492712f55cb262f0x3800401004d67b54&signature=aa05b53b08f63b5c59d606c5b0f59b8d 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	BlocksGet Request took 496ms 
+2019-09-06 06:59:39	INFO	AbstractHttpCommand           	BlocksGet response error, status: 503 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	WalletGet Request took 443ms 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	BlocksGet response: Service Unavailable 
+2019-09-06 06:59:39	INFO	BlocksGet                     	BlocksGet ERROR - code:503 error: SERVICE_UNAVAILABLE 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Finished running task without service (5):GetBlockedContactsTask in 574ms 
+2019-09-06 06:59:39	INFO	AbstractHttpCommand           	WalletGet response error, status: 503 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	WalletGet response: Service Unavailable 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	RatesCountriesGet Request took 444ms 
+2019-09-06 06:59:39	INFO	AbstractHttpCommand           	RatesCountriesGet response error, status: 503 
+2019-09-06 06:59:39	DEBUG	AbstractHttpCommand           	RatesCountriesGet response: Service Unavailable 
+2019-09-06 06:59:39	INFO	RatesCountriesGet             	RatesCountriesGet ERROR - code:503 error: SERVICE_UNAVAILABLE 
+2019-09-06 06:59:39	DEBUG	GetRatesForCountriesTask      	failed to get rates for supported countries 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Finished running task without service (8):GetRatesForCountriesTask in 484ms 
+2019-09-06 06:59:39	INFO	WalletGet                     	WalletGet ERROR - code:503 error: SERVICE_UNAVAILABLE 
+2019-09-06 06:59:39	INFO	TNTaskService                 	Finished running task without service (7):GetWalletTask in 491ms 
+2019-09-06 06:59:39	DEBUG	FreeWirelessUtils             	isUserPremium = false, wirelessUser = false, isNetworkServiceAvailable = true, isFreeCellular = false, isTalkAndText = false, isDataSubscriptionPlan = false, isUnlimitedDataSubscriptionPlan = false, isCellularCapable = true 
+2019-09-06 06:59:39	INFO	TextNow                       	MainActivity received BROADCAST task:UpdateLeanplumInboxCacheTask taskId:11 
+2019-09-06 06:59:40	DEBUG	ConversationListFragment      	restarting loader 
+2019-09-06 06:59:40	INFO	TextNow                       	MainActivity received BROADCAST task:UpdateLeanplumInboxCacheTask taskId:20 
+2019-09-06 06:59:40	DEBUG	ConversationListFragment      	restarting loader 
+2019-09-06 06:59:40	DEBUG	LeanplumUtils                 	Updating LP variables 
+2019-09-06 06:59:40	DEBUG	AppLaunchConfiguration        	Application Launch Configuration Offline cache TTL in Secs 86400 
+2019-09-06 06:59:40	DEBUG	LeanplumInitializeMonitor     	Leanplum SDK state: InitializationPhase.SDK_INITIALIZED -> InitializationPhase.SERVER_DATA_READY bitwise 15 
+2019-09-06 06:59:40	DEBUG	LeanplumVariables             	Leanplum finished loading, and we're going to save the LP preferences to local storage. 
+2019-09-06 06:59:40	DEBUG	AbstractHttpCommand           	SubscriptionGet Request took 455ms 
+2019-09-06 06:59:40	INFO	AbstractHttpCommand           	SubscriptionGet response error, status: 503 
+2019-09-06 06:59:40	DEBUG	AbstractHttpCommand           	SubscriptionGet response: Service Unavailable 
+2019-09-06 06:59:40	INFO	SubscriptionGet               	SubscriptionGet ERROR - code:503 error: SERVICE_UNAVAILABLE 
+2019-09-06 06:59:40	INFO	TNTaskService                 	Finished running task without service (17):GetSubscriptionTask in 511ms 
+2019-09-06 06:59:40	INFO	TNLPVar                       	Just fyi. The following variable isn't candidate for caching Advertisements.AmazonAds.banner_tiers 
+2019-09-06 06:59:40	INFO	TNLPVar                       	Just fyi. The following variable isn't candidate for caching Advertisements.AmazonAds.mrect_tiers 
+2019-09-06 06:59:40	INFO	TNLPVar                       	Just fyi. The following variable isn't candidate for caching Advertisements.UberMedia.instream_banner_tiers 
+2019-09-06 06:59:40	INFO	TNLPVar                       	Just fyi. The following variable isn't candidate for caching Advertisements.MoPub.keywords 
+2019-09-06 06:59:40	DEBUG	CacheEsnUsernameWorker        	handleCacheEsnUsername() 
+2019-09-06 06:59:40	DEBUG	CacheEsnUsernameWorker        	ESN Username already cached 
+2019-09-06 06:59:40	DEBUG	CacheSimInfoWorker            	handleCacheSIMInfo() 
+2019-09-06 06:59:40	DEBUG	AbstractHttpCommand           	SessionPut Request took 394ms 
+2019-09-06 06:59:40	INFO	AbstractHttpCommand           	SessionPut response error, status: 500 
+2019-09-06 06:59:40	DEBUG	AbstractHttpCommand           	SessionPut response: Internal Server Error 
+2019-09-06 06:59:40	DEBUG	CacheSimInfoWorker            	SIM Info already cached 
+2019-09-06 06:59:40	DEBUG	IabHelper                     	Got sku details: SkuDetails:{"skuDetailsToken":"AEuhp4InqVM9QWKirSju0FxqNTXbeFvz5P_Snw_9sSsx4gu0gbshOhKoMCZVC_Xm0Vrp","productId":"10_dollars_international_credit","type":"inapp","price":"$10.00","price_amount_micros":10000000,"price_currency_code":"USD","title":"$10 of International Credit (TextNow: Free Texting & Calling App)","description":"International Credit is used to make International Long Distance calls."} 
+2019-09-06 06:59:40	DEBUG	IabHelper                     	Got sku details: SkuDetails:{"skuDetailsToken":"AEuhp4JhaU96TUHftz4SofnQZVhW3I1tVI2LPsz7BDg5aIywkKTkFU08UGgNpuWtEQku","productId":"20_dollars_international_credit","type":"inapp","price":"$20.00","price_amount_micros":20000000,"price_currency_code":"USD","title":"$20 of International Credit (TextNow: Free Texting & Calling App)","description":"International Credit is used to make International Long Distance Calls."} 
+2019-09-06 06:59:40	DEBUG	IabHelper                     	Got sku details: SkuDetails:{"skuDetailsToken":"AEuhp4KHHMYWX9p6tepRKg7KlTvFzorGvVS2ydYuzY6RRVhiwvL7GJy2wG9DaA0xiQNg","productId":"5_dollars_international_credit","type":"inapp","price":"$5.00","price_amount_micros":5000000,"price_currency_code":"USD","title":"$5 of International Credit (TextNow: Free Texting & Calling App)","description":"International Credit is used to make International Long Distance calls."} 
+2019-09-06 06:59:40	INFO	SessionPut                    	SessionPut ERROR - code:500 error: null 
+2019-09-06 06:59:40	DEBUG	IabHelper                     	Got sku details: SkuDetails:{"skuDetailsToken":"AEuhp4KycudbuERrFUS71nEh67G1_-sjapQI_8PsdyCZZCgCIbWSHl8p90oFKet1r4Z-","productId":"adremoval1month","type":"inapp","price":"$0.99","price_amount_micros":990000,"price_currency_code":"USD","title":"Ad Removal 1 Month (TextNow: Free Texting & Calling App)","description":"Remove ads for 1 month."} 
+2019-09-06 06:59:40	DEBUG	IabHelper                     	Got sku details: SkuDetails:{"skuDetailsToken":"AEuhp4LA4gS24B5P2zh49m_zviHPueSzYzSo_B8n2XgZDNVTFcquVeLPoSWjmbPs4pfG","productId":"adremoval1year","type":"inapp","price":"$5.99","price_amount_micros":5990000,"price_currency_code":"USD","title":"Ad Removal 1 Year (TextNow: Free Texting & Calling App)","description":"Remove ads for 1 year."} 
+2019-09-06 06:59:40	DEBUG	IabHelper                     	Got sku details: SkuDetails:{"skuDetailsToken":"AEuhp4I0sNHgj6w6oV-DOz7ukfK2_boQAxBj8df6cD9F7R1S07VD1RrJ7vVipMY4STo4","productId":"callforwarding1month","type":"inapp","price":"$2.99","price_amount_micros":2990000,"price_currency_code":"USD","title":"Premium 1 Month (TextNow: Free Texting & Calling App)","description":"Enable TexNow Premium for 1 month."} 
+2019-09-06 06:59:40	DEBUG	IabHelper                     	Got sku details: SkuDetails:{"skuDetailsToken":"AEuhp4KpMQeHVJ2hv-gSaejFD0QDYkUMkWJBSZURzCtN-L52rmgj36WXYBHWP2j89Dg9","productId":"callforwarding1year","type":"inapp","price":"$29.99","price_amount_micros":29990000,"price_currency_code":"USD","title":"Premium 1 Year (TextNow: Free Texting & Calling App)","description":"Enable TextNow Premium for 1 year."} 
+2019-09-06 06:59:40	DEBUG	IabHelper                     	Ending async operation: refresh inventory 
+2019-09-06 06:59:40	DEBUG	CleanupProxyContacts          	Proxy contact cleanup has been previously completed 
+2019-09-06 06:59:40	DEBUG	RefreshContactProxyTask       	Last proxy check is 0. Scheduling job. 
+2019-09-06 06:59:40	DEBUG	AppUtils                      	Using new algorithm for cdma fallback check 
+2019-09-06 06:59:40	DEBUG	PSTNFallback                  	The last MDN check for this mdn failed. 
+2019-09-06 06:59:40	DEBUG	PSTNFallback                  	This feature is not allowed for this user 
+2019-09-06 06:59:40	ERROR	PSTNFallback                  	This feature is not enabled 
+2019-09-06 06:59:40	DEBUG	AppUtils                      	CDMA fallback not enabled. 
+2019-09-06 06:59:40	INFO	TNLPVar                       	Just fyi. The following variable isn't candidate for caching Advertisements.CPM.mopub_ad_unit_ids 
+2019-09-06 06:59:40	INFO	TNLPVar                       	Just fyi. The following variable isn't candidate for caching Advertisements.AmazonAds.instream_banner_tiers 
+2019-09-06 06:59:40	INFO	TextNow                       	MainActivity received BROADCAST task:GetSubscriptionTask taskId:17 errorOccurred:true statusCode:503 errorCode:SERVICE_UNAVAILABLE 
+2019-09-06 06:59:40	DEBUG	PermissionHelper              	requestPermissionsOnMainActivity() called with: activity = [com.enflick.android.TextNow.activities.MainActivity@6ab62d] 
+2019-09-06 06:59:40	INFO	TNLPVar                       	Just fyi. The following variable isn't candidate for caching Advertisements.UberMedia.banner_tiers 
+2019-09-06 06:59:40	INFO	TNLPVar                       	Just fyi. The following variable isn't candidate for caching Advertisements.UberMedia.mrect_tiers 
+2019-09-06 06:59:40	DEBUG	LeanplumInitializeMonitor     	Leanplum SDK state: InitializationPhase.SERVER_DATA_READY -> InitializationPhase.OFFLINE_DATA_REFRESHED bitwise 31 
+2019-09-06 06:59:40	DEBUG	FetchPacketTestAndHeartbeatSer	servers fetched: {"test_servers":{"packet_servers":[{"ip":"216.52.24.45","port":3333,"host":"prod-qos-server-02"},{"ip":"216.52.24.44","port":3333,"host":"prod-qos-server-01"},{"ip":"216.52.24.46","port":3333,"host":"prod-qos-server-03"}],"heartbeat":[{"ip":"216.52.24.45","port":3334,"host":"prod-qos-server-02"},{"ip":"216.52.24.44","port":3334,"host":"prod-qos-server-01"},{"ip":"216.52.24.46","port":3334,"host":"prod-qos-server-03"}]}} 
+2019-09-06 06:59:40	INFO	TNTaskService                 	Finished running task without service (15):FetchPacketTestAndHeartbeatServers in 915ms 
+2019-09-06 06:59:40	DEBUG	FetchPacketTestAndHeartbeatSer	test profiles fetched: [{"id":1,"description":"DEFAULT","tx_packets":10,"tx_packet_size":1024,"rx_packets":10,"rx_packet_size":1024,"created_at":"2017-09-19T13:24:37.000Z","updated_at":"2017-09-19T13:24:37.000Z","rx_test_timeout":3000,"tx_test_timeout":3000,"rx_frame_period":2.5,"tx_frame_period":2.5,"interface":"DEFAULT","user_id":null},{"id":2,"description":"WIFI","tx_packets":10,"tx_packet_size":1024,"rx_packets":10,"rx_packet_size":1024,"created_at":"2017-09-19T13:24:37.000Z","updated_at":"2017-09-19T13:24:37.000Z","rx_test_timeout":3000,"tx_test_timeout":3000,"rx_frame_period":2.5,"tx_frame_period":2.5,"interface":"WIFI","user_id":null},{"id":3,"description":"LTE","tx_packets":10,"tx_packet_size":1024,"rx_packets":10,"rx_packet_size":1024,"created_at":"2017-09-19T13:24:37.000Z","updated_at":"2017-09-19T13:24:37.000Z","rx_test_timeout":3000,"tx_test_timeout":3000,"rx_frame_period":2.5,"tx_frame_period":2.5,"interface":"DATA","user_id":null},{"id":4,"description":"3G","tx_packets":10,"tx_packet_size":1024,"rx_packets":10,"rx_packet_size":1024,"created_at":"2017-09-19T13:24:37.000Z","updated_at":"2017-09-19T13:24:37.000Z","rx_test_timeout":3000,"tx_test_timeout":3000,"rx_frame_period":2.5,"tx_frame_period":2.5,"interface":"3G","user_id":null},{"id":5,"description":"2G","tx_packets":10,"tx_packet_size":1024,"rx_packets":10,"rx_packet_size":1024,"created_at":"2017-09-19T13:24:37.000Z","updated_at":"2017-09-19T13:24:37.000Z","rx_test_timeout":3000,"tx_test_timeout":3000,"rx_frame_period":2.5,"tx_frame_period":2.5,"interface":"2G","user_id":null}] 
+2019-09-06 06:59:40	INFO	TNTaskService                 	Finished running task without service (16):FetchTestProfile in 951ms 
+2019-09-06 06:59:40	DEBUG	PhoneUtils                    	This app is not the native dialer. Default dialer package name is: com.samsung.android.contacts 
+2019-09-06 06:59:40	DEBUG	PermissionsDialogCommon       	Permission is already granted 
+2019-09-06 06:59:40	DEBUG	FreeWirelessUtils             	isUserPremium = false, wirelessUser = false, isNetworkServiceAvailable = true, isFreeCellular = false, isTalkAndText = false, isDataSubscriptionPlan = false, isUnlimitedDataSubscriptionPlan = false, isCellularCapable = true 
+2019-09-06 06:59:40	DEBUG	SocketConnectRunnable         	Connecting... 
+2019-09-06 06:59:40	ERROR	Throttler                     	unthrottle() - Called with null socket 
+2019-09-06 06:59:40	INFO	LaunchTimeHelper              	AppLaunchConfiguration App launch time for user is 1528  milliseconds for cold 
+2019-09-06 06:59:40	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: AppLaunchTimeV4.launch_time_cold_ms 
+2019-09-06 06:59:40	DEBUG	TextNowApp                    	AppLaunchConfiguration Legacy App launch time for existing user  is 2890 milliseconds 
+2019-09-06 06:59:40	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: AppLaunchTimeV4.launch_time_legacy_ms 
+2019-09-06 06:59:40	DEBUG	GetMoPubIdTask                	MoPub ID: using default production ID 
+2019-09-06 06:59:40	DEBUG	LeanPlumReportingRunnable     	Saved event: AppLaunchTimeV4.launch_time_cold_ms with info double 
+2019-09-06 06:59:40	DEBUG	SaveSingleRecordRunnableBase  	appmetrics-prod Record saved: {"created_at":"2019-09-06 12:59:40","client_type":"TN_ANDROID","client_version":"6.40.0.1","username":"leozinn666","device_model":"j3topeltevzw","os_version":"8.0.0","network_type":"wifi","metric_name":"app_launch_time_cold","metric_value":"1528"}
+2019-09-06 06:59:40	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:40	DEBUG	AdsManager                    	Initializing Fyber 
+2019-09-06 06:59:40	DEBUG	SaveSingleRecordRunnableBase  	appmetrics-prod Record saved: {"created_at":"2019-09-06 12:59:40","client_type":"TN_ANDROID","client_version":"6.40.0.1","username":"leozinn666","device_model":"j3topeltevzw","os_version":"8.0.0","network_type":"wifi","metric_name":"app_launch_time","metric_value":"2890"}
+2019-09-06 06:59:40	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:40	DEBUG	LeanPlumReportingRunnable     	Saved event: AppLaunchTimeV4.launch_time_legacy_ms with info double 
+2019-09-06 06:59:41	DEBUG	AbstractHttpCommand           	UsersGet Request took 1654ms 
+2019-09-06 06:59:41	VERBOSE	AbstractHttpCommand           	Request to: api.textnow.me 
+2019-09-06 06:59:41	VERBOSE	AbstractHttpCommand           	Status: 200
+2019-09-06 06:59:41	VERBOSE	AbstractHttpCommand           	Response: {"user_id":4035295703668783956,"username":"leozinn666","account_status":"ENABLED","expiry":"2019-05-11","email":"leozinn666@gmail.com","email_verified":0,"first_name":"leo","last_name":"zinn","captcha_required":false,"last_update":"2019-09-05","ringtone":"","signature":"","show_text_previews":true,"forward_messages":0,"incentivized_share_date_twitter":"0000-00-00","incentivized_share_date_facebook":"0000-00-00","credits":5,"timestamp":"2019-09-05T17:14:28Z","purchases_timestamp":"0000-00-00T00:00:00Z","has_password":false,"phone_number":"4352556872","phone_assigned_date":"2019-05-11","phone_last_unassigned":"2019-05-04","sip":{"id":96,"host":"prod.tncp.textnow.com","username":"14352556872_ba9BasbXKjFpk6nktOdwQNC8PEzwJ6nXX4O5HdMB8LZ2","password":"11e027551109e33e0ae71fb5ec95208d","proxy":"","stun":"","voicemail_url":"https:\/\/s3.amazonaws.com\/TN-Prod-VoicemailGreetings\/49af3a851db4a90d5021784652cf77bcbda4fae391e42e44ffecab774bd9488a.wav"},"disable_calling":"0","mytempnumber_dnd":false,"sip_minutes":5,"sip_IP":"prod.tncp.textnow.com","mytempnumber_voicemail_upload_url":"https:\/\/api.textnow.me\/api2.0\/voicemail","sip_username":"14352556872_ba9BasbXKjFpk6nktOdwQNC8PEzwJ6nXX4O5HdMB8LZ2","sip_password":"11e027551109e33e0ae71fb5ec95208d","mytempnumber_voicemail_v2":1,"referring_amount":5000,"referred_amount":2000,"mytempnumber_status":0,"mytempnumber_expiry":"0000-00-00","features":{"cdma_fallback":true,"e911_accepted":false,"is_employee":false},"forwarding_expiry":"0000-00-00","forwarding_status":"1","premium_calling":false,"forwarding_number":"","voicemail":"1","voicemail_timestamp":"0000-00-00T00:00:00Z","show_ads":true,"is_persistent":true,"mytempnumber_free_calling":1,"incentivized_share_date":"0000-00-00","append_footer":0,"ads_autorenew":"0","voice_autorenew":"0","forward_email":"leozinn666@gmail.com","mytempnumber_voicemail":true,"phone_expiry":"2019-05-11","area_code":null,"unlimited_calling":true,"vm_transcription_enabled":false,"vm_transcription_user_enabled":null,"ad_categories":[],"messaging_email":"leozinn666@textnow.me"} 
+2019-09-06 06:59:41	INFO	AbstractHttpCommand           	UsersGet request made 
+2019-09-06 06:59:41	DEBUG	UserInformationUtils          	NEW STATUS: User is not premium, keep old caller ID table 
+2019-09-06 06:59:41	DEBUG	UserInformationUtils          	cacheSipInfo() called with: sipInfo = [host: prod.tncp.textnow.com password: [PASSWORD] username: 14352556872_ba9BasbXKjFpk6nktOdwQNC8PEzwJ6nXX4O5HdMB8LZ2 proxy:  stun: ] 
+2019-09-06 06:59:41	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: attribute 
+2019-09-06 06:59:41	INFO	TNTaskService                 	Finished running task without service (6):GetUserInfoTask in 1952ms 
+2019-09-06 06:59:41	DEBUG	LeanPlumReportingRunnable     	Saved attribute(s) with: 8 key-value pair(s) 
+2019-09-06 06:59:41	DEBUG	AdsManager                    	Ad Settings Is tablet? false Rotation for non-tablet true Rotation for Tablet true Failover Unit true Num Banners 3 Banners TimeShown 10 Fast GC? true Send CPM Info Enum: true 
+2019-09-06 06:59:41	DEBUG	CoachMarkUtils                	Not showing coach marks, user has existing conversations 
+2019-09-06 06:59:41	DEBUG	InAppPurchaseWrapper          	Query inapp inventory finished. 
+2019-09-06 06:59:41	DEBUG	InAppPurchaseWrapper          	Query inapp inventory was successful. 
+2019-09-06 06:59:41	DEBUG	IabHelper                     	Starting async operation: refresh inventory 
+2019-09-06 06:59:41	DEBUG	IabHelper                     	Querying owned items... 
+2019-09-06 06:59:41	DEBUG	IabHelper                     	Package name: com.enflick.android.TextNow 
+2019-09-06 06:59:41	DEBUG	IabHelper                     	Calling getPurchases with continuation token: null 
+2019-09-06 06:59:41	DEBUG	IabHelper                     	Owned items response: 0 
+2019-09-06 06:59:41	DEBUG	IabHelper                     	Continuation token: null 
+2019-09-06 06:59:41	DEBUG	IabHelper                     	Querying SKU details. 
+2019-09-06 06:59:41	DEBUG	ConversationListNativeVideoAd 	Should show native video ad: false 
+2019-09-06 06:59:41	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x480_main_screen_fullpage 
+2019-09-06 06:59:41	VERBOSE	PhotoManager                  	Preloaded 9 photos.  Cached bytes: 0 
+2019-09-06 06:59:41	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x480_pre_call_fullpage 
+2019-09-06 06:59:41	DEBUG	PreCallInterstitial           	refresh(). Requested pre cache for true 
+2019-09-06 06:59:41	DEBUG	IabHelper                     	Ending async operation: refresh inventory 
+2019-09-06 06:59:41	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x480_call_end_fullpage 
+2019-09-06 06:59:41	DEBUG	EndCallInterstitial           	refresh(). Requested pre cache for true 
+2019-09-06 06:59:41	DEBUG	ClearbidUbermediaAdSDKConfigur	Starting UberMedia SDK with APP ID: 9b14a9259b58df9df9748cadb06c1eb7 
+2019-09-06 06:59:42	DEBUG	ConversationListFragment      	restarting loader 
+2019-09-06 06:59:42	DEBUG	ConversationListNativeAd      	Can load ConversationListNativeAd ad: true 
+2019-09-06 06:59:42	DEBUG	AmazonHBHelper                	This object won't be initilized because it's not enabled true false true 
+2019-09-06 06:59:42	DEBUG	AmazonAdSDKConfiguration      	Starting amazon SDK with APP ID: 085d4f3f7ee34606a36b6736359a053d Is testing false Using Location: true 
+2019-09-06 06:59:42	DEBUG	AdSourceUtility               	Scheduling AdSourceUtility init once LP value is read 
+2019-09-06 06:59:42	DEBUG	AdsManager                    	AdsManager initialization complete 
+2019-09-06 06:59:42	DEBUG	AdSourceUtility               	AdSourceUtility is enabled 30 
+2019-09-06 06:59:42	DEBUG	InAppPurchaseWrapper          	Query subscription inventory finished. 
+2019-09-06 06:59:42	DEBUG	InAppPurchaseWrapper          	Query subscription inventory was successful. 
+2019-09-06 06:59:42	INFO	TNTaskService                 	Starting to run task without service (29):PuntStartTask 
+2019-09-06 06:59:42	INFO	TNTaskService                 	Finished running task without service (29):PuntStartTask in 5ms 
+2019-09-06 06:59:43	DEBUG	MainActivity                  	MoPub initialized 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	called enableAds() 
+2019-09-06 06:59:43	DEBUG	GetMoPubIdTask                	MoPub ID: using default production ID 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	Added remove ads button to  androidx.constraintlayout.widget.ConstraintLayout{4a64b7c V.E...... ......ID 0,1232-720,1232 #7f0a0095 app:id/ad_container} 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	Ad view added androidx.appcompat.widget.AppCompatImageView{3b61c05 VFED..C.. ......ID 0,0-0,0 #7f0a0098 app:id/ad_image_view} 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	Ad view moves to front androidx.appcompat.widget.AppCompatImageView{3b61c05 VFED..C.. ......ID 0,0-0,0 #7f0a0098 app:id/ad_image_view} 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	Default place holder ad impression androidx.appcompat.widget.AppCompatImageView{3b61c05 VFED..C.. ......ID 0,0-0,0 #7f0a0098 app:id/ad_image_view} 
+2019-09-06 06:59:43	DEBUG	AdSourceUtility               	Scheduling AdSourceUtility init once LP value is read 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	AdsManager initialization complete 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	Creating TNBannerAdRotatorFastGC 
+2019-09-06 06:59:43	DEBUG	AdSourceUtility               	AdSourceUtility is enabled 30 
+2019-09-06 06:59:43	DEBUG	CPM                           	Already initialized 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	public constructor called MAIN BANNER 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	Requesting MoPub ID 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	newBannerAdRotationTask() 
+2019-09-06 06:59:43	DEBUG	GetMoPubIdTask                	MoPub ID: using default production ID 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	called enableAds() completed 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	refreshAds 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	loading ads count: 0 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	stale ads count: 0 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	ready ads count: 0 
+2019-09-06 06:59:43	DEBUG	MainScreenInterstitialAdManage	Ad should be loaded: false 
+2019-09-06 06:59:43	ERROR	MainActivity                  	MoPub has finished initializing. We'll inflate a keyboard ad now 
+2019-09-06 06:59:43	DEBUG	MainActivity                  	Conversation Ad Unit is disabled. 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	MoPub ID returned:  4bada45f662647c8987197dba53d18e4 MoPubAdType 1 Non-Rotation MoPub Main Banner true 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	MoPub ID returned:  4bada45f662647c8987197dba53d18e4 MoPubAdType 1 
+2019-09-06 06:59:43	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 0: textnow_android_320x50_banner success: true 
+2019-09-06 06:59:43	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner_1 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 1: textnow_android_320x50_banner_1 success: true 
+2019-09-06 06:59:43	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner_2 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 2: textnow_android_320x50_banner_2 success: true 
+2019-09-06 06:59:43	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner_3 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 3: textnow_android_320x50_banner_3 success: true 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	set mopub ad id to: 4bada45f662647c8987197dba53d18e4 
+2019-09-06 06:59:43	DEBUG	TNMoPubView                   	Initializing a TNMoPubView object. Dynamic type class com.mopub.mobileads.TNMoPubViewCustom 
+2019-09-06 06:59:43	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  bd7a9bd5-9462-4579-b2e1-dd0d712393f8 
+2019-09-06 06:59:43	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  7cd544ff-b318-4dce-909c-922e4b46c87f 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	New mopub view with keywords:  m_app_version:6.40.0.1,m_platform:android 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	Loading MoPubView #: 0 
+2019-09-06 06:59:43	DEBUG	TNMoPubView                   	Ad unit: 4bada45f662647c8987197dba53d18e4 requested 
+2019-09-06 06:59:43	DEBUG	TNMoPubView                   	Initializing a TNMoPubView object. Dynamic type class com.mopub.mobileads.TNMoPubViewCustom 
+2019-09-06 06:59:43	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  bd7a9bd5-9462-4579-b2e1-dd0d712393f8 
+2019-09-06 06:59:43	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  7cd544ff-b318-4dce-909c-922e4b46c87f 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	New mopub view with keywords:  m_app_version:6.40.0.1,m_platform:android 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	Loading MoPubView #: 1 
+2019-09-06 06:59:43	DEBUG	TNMoPubView                   	Ad unit: 4bada45f662647c8987197dba53d18e4 requested 
+2019-09-06 06:59:43	DEBUG	TNMoPubView                   	Initializing a TNMoPubView object. Dynamic type class com.mopub.mobileads.TNMoPubViewCustom 
+2019-09-06 06:59:43	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  bd7a9bd5-9462-4579-b2e1-dd0d712393f8 
+2019-09-06 06:59:43	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  7cd544ff-b318-4dce-909c-922e4b46c87f 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	New mopub view with keywords:  m_app_version:6.40.0.1,m_platform:android 
+2019-09-06 06:59:43	DEBUG	TNBannerAdRotator             	Loading MoPubView #: 2 
+2019-09-06 06:59:43	DEBUG	TNMoPubView                   	Ad unit: 4bada45f662647c8987197dba53d18e4 requested 
+2019-09-06 06:59:43	DEBUG	AdsManager                    	loading AdMob Backfill precache 
+2019-09-06 06:59:43	DEBUG	TextNow                       	Failed to retrieve GPS location: access appears to be disabled. 
+2019-09-06 06:59:43	DEBUG	TextNow                       	Failed to retrieve network location: access appears to be disabled. 
+2019-09-06 06:59:44	DEBUG	TextNow                       	WelcomeActivity on unregister: unregister receiver 
+2019-09-06 06:59:44	DEBUG	AmazonAdsHelper               			Amazon Ad successfully loaded ad with keywords. Unit: bd7a9bd5-9462-4579-b2e1-dd0d712393f8 Tier: 0 keywords: amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b:Iqxna4GTQD_zdvI9rDWQAkMAAAFtBqjDSAEAAA-qApM8qxY,dc:iad, 
+2019-09-06 06:59:45	DEBUG	AmazonAdsHelper               			Amazon Ad successfully loaded ad with keywords. Unit: 7cd544ff-b318-4dce-909c-922e4b46c87f Tier: 1 keywords: amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b_1:IreFTMraOOYGsgnWoSKgKmEAAAFtBqjEhwEAAA-qAnGCV3k,dc:iad, 
+2019-09-06 06:59:45	DEBUG	AmazonAdsHelper               			Amazon Ad successfully loaded ad with keywords. Unit: bd7a9bd5-9462-4579-b2e1-dd0d712393f8 Tier: 0 keywords: amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IqK1rglx6m4D9eCfRWK7XDYAAAFtBqjF7AEAAA-qAkfNdjA,dc:iad, 
+2019-09-06 06:59:45	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:45","type":"request","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"AdMob","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Banner","ad_format":"320x50","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","keywords":""}
+2019-09-06 06:59:45	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:46	DEBUG	AmazonAdsHelper               			Amazon Ad successfully loaded ad with keywords. Unit: 7cd544ff-b318-4dce-909c-922e4b46c87f Tier: 1 keywords: amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:IqYtM591c6g4LbNYQkAGZGwAAAFtBqjHrgEAAA-qAhP3pL0,dc:iad, 
+2019-09-06 06:59:46	DEBUG	MoPub                         	Google Play Services banner ad loaded successfully. Showing ad... 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             	ADD to ReadyToShowQueue MoPubView #: 0 
+2019-09-06 06:59:46	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  bd7a9bd5-9462-4579-b2e1-dd0d712393f8 
+2019-09-06 06:59:46	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  7cd544ff-b318-4dce-909c-922e4b46c87f 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_bidder:openx unit textnow_android_320x50_banner 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_version:0.6.6 unit textnow_android_320x50_banner 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_price:1.00 unit textnow_android_320x50_banner 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_bidder_1:openx unit textnow_android_320x50_banner_1 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_version_1:0.6.6 unit textnow_android_320x50_banner_1 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_price_1:1.00 unit textnow_android_320x50_banner_1 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_bidder_2:openx unit textnow_android_320x50_banner_2 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_version_2:0.6.6 unit textnow_android_320x50_banner_2 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_price_2:1.00 unit textnow_android_320x50_banner_2 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_bidder_3:openx unit textnow_android_320x50_banner_3 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_version_3:0.6.6 unit textnow_android_320x50_banner_3 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_price_3:1.00 unit textnow_android_320x50_banner_3 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             	Updating mopub object 239734017 with keywords:  amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b:Iqxna4GTQD_zdvI9rDWQAkMAAAFtBqjDSAEAAA-qApM8qxY,dc:iad,,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b_1:IreFTMraOOYGsgnWoSKgKmEAAAFtBqjEhwEAAA-qAnGCV3k,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00 
+2019-09-06 06:59:46	DEBUG	TNMoPubView                   	Finished loading ad unit: 4bada45f662647c8987197dba53d18e4. Load took 2390ms. 
+2019-09-06 06:59:46	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: Ad Loaded Event 
+2019-09-06 06:59:46	DEBUG	LeanPlumReportingRunnable     	Saved event: Ad Loaded Event with info map 
+2019-09-06 06:59:46	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: EVENT_HEALTH_AD_LOAD 
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:46","type":"request","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"AdMob","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Banner","ad_format":"320x50","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","keywords":"amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b:Iqxna4GTQD_zdvI9rDWQAkMAAAFtBqjDSAEAAA-qApM8qxY,dc:iad,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b_1:IreFTMraOOYGsgnWoSKgKmEAAAFtBqjEhwEAAA-qAnGCV3k,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:46	DEBUG	TNMoPubViewRevenue            	ID 239734017 Ad source ID dbbd310b39424a47af94824223e8f79c Ad unit ID 4bada45f662647c8987197dba53d18e4 Creative ID 3c96a07cf7074513ae579335f4d150ac CPM 5.5 Reporting:  EVENT_HEALTH_AD_LOAD 
+2019-09-06 06:59:46	DEBUG	TNMoPubView                   	Ad impression 239734017 trackNativeImpression 
+2019-09-06 06:59:46	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: EVENT_HEALTH_AD_SHOW 
+2019-09-06 06:59:46	DEBUG	TNMoPubViewRevenue            	ID 239734017 Ad source ID dbbd310b39424a47af94824223e8f79c Ad unit ID 4bada45f662647c8987197dba53d18e4 Creative ID 3c96a07cf7074513ae579335f4d150ac CPM 5.5 Reporting:  EVENT_HEALTH_AD_SHOW 
+2019-09-06 06:59:46	DEBUG	LeanPlumReportingRunnable     	Saved event: EVENT_HEALTH_AD_LOAD with info double and info map 
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:46","type":"ad_load","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"AdMob","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Banner","ad_format":"320x50","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","line_item_id":"dbbd310b39424a47af94824223e8f79c","ad_unit_id":"4bada45f662647c8987197dba53d18e4","cpm":5.5,"keywords":"amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b:Iqxna4GTQD_zdvI9rDWQAkMAAAFtBqjDSAEAAA-qApM8qxY,dc:iad,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b_1:IreFTMraOOYGsgnWoSKgKmEAAAFtBqjEhwEAAA-qAnGCV3k,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:46","type":"ad_show","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"AdMob","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Banner","ad_format":"320x50","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","line_item_id":"dbbd310b39424a47af94824223e8f79c","ad_unit_id":"4bada45f662647c8987197dba53d18e4","cpm":5.5,"keywords":"amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b:Iqxna4GTQD_zdvI9rDWQAkMAAAFtBqjDSAEAAA-qApM8qxY,dc:iad,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b_1:IreFTMraOOYGsgnWoSKgKmEAAAFtBqjEhwEAAA-qAnGCV3k,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:46	DEBUG	MoPub                         	Google Play Services banner ad loaded successfully. Showing ad... 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             	ADD to ReadyToShowQueue MoPubView #: 1 
+2019-09-06 06:59:46	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  bd7a9bd5-9462-4579-b2e1-dd0d712393f8 
+2019-09-06 06:59:46	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  7cd544ff-b318-4dce-909c-922e4b46c87f 
+2019-09-06 06:59:46	DEBUG	LeanPlumReportingRunnable     	Saved event: EVENT_HEALTH_AD_SHOW with info double and info map 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 0: textnow_android_320x50_banner success: true 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner_1 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 1: textnow_android_320x50_banner_1 success: true 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner_2 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 2: textnow_android_320x50_banner_2 success: true 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner_3 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 3: textnow_android_320x50_banner_3 success: true 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Use last known keywords:  amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IqK1rglx6m4D9eCfRWK7XDYAAAFtBqjF7AEAAA-qAkfNdjA,dc:iad,,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:IqYtM591c6g4LbNYQkAGZGwAAAFtBqjHrgEAAA-qAhP3pL0,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Use last known keywords:  amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IqK1rglx6m4D9eCfRWK7XDYAAAFtBqjF7AEAAA-qAkfNdjA,dc:iad,,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:IqYtM591c6g4LbNYQkAGZGwAAAFtBqjHrgEAAA-qAhP3pL0,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Use last known keywords:  amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IqK1rglx6m4D9eCfRWK7XDYAAAFtBqjF7AEAAA-qAkfNdjA,dc:iad,,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:IqYtM591c6g4LbNYQkAGZGwAAAFtBqjHrgEAAA-qAhP3pL0,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Use last known keywords:  amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IqK1rglx6m4D9eCfRWK7XDYAAAFtBqjF7AEAAA-qAkfNdjA,dc:iad,,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:IqYtM591c6g4LbNYQkAGZGwAAAFtBqjHrgEAAA-qAhP3pL0,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             	Updating mopub object 261870050 with keywords:  amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IqK1rglx6m4D9eCfRWK7XDYAAAFtBqjF7AEAAA-qAkfNdjA,dc:iad,,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:IqYtM591c6g4LbNYQkAGZGwAAAFtBqjHrgEAAA-qAhP3pL0,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00 
+2019-09-06 06:59:46	DEBUG	TNMoPubView                   	Finished loading ad unit: 4bada45f662647c8987197dba53d18e4. Load took 2387ms. 
+2019-09-06 06:59:46	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: Ad Loaded Event 
+2019-09-06 06:59:46	DEBUG	TNMoPubView                   	Ad impression 261870050 trackNativeImpression 
+2019-09-06 06:59:46	DEBUG	TNMoPubViewRevenue            	ID 261870050 Ad source ID null Ad unit ID null Creative ID null CPM null Reporting:  EVENT_HEALTH_AD_SHOW 
+2019-09-06 06:59:46	DEBUG	MoPub                         	Google Play Services banner ad loaded successfully. Showing ad... 
+2019-09-06 06:59:46	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: EVENT_HEALTH_AD_LOAD 
+2019-09-06 06:59:46	DEBUG	TNMoPubViewRevenue            	ID 261870050 Ad source ID dbbd310b39424a47af94824223e8f79c Ad unit ID 4bada45f662647c8987197dba53d18e4 Creative ID 3c96a07cf7074513ae579335f4d150ac CPM 5.5 Reporting:  EVENT_HEALTH_AD_LOAD 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             	ADD to ReadyToShowQueue MoPubView #: 2 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 0: textnow_android_320x50_banner success: true 
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:46","type":"ad_show","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"","ad_platform":"","ad_name":"","ad_placement":"","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","line_item_id":"","ad_unit_id":"4bada45f662647c8987197dba53d18e4","cpm":"","keywords":"amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IqK1rglx6m4D9eCfRWK7XDYAAAFtBqjF7AEAAA-qAkfNdjA,dc:iad,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:IqYtM591c6g4LbNYQkAGZGwAAAFtBqjHrgEAAA-qAhP3pL0,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:46	DEBUG	LeanPlumReportingRunnable     	Saved event: Ad Loaded Event with info map 
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:46","type":"request","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"AdMob","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Banner","ad_format":"320x50","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","keywords":"amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IqK1rglx6m4D9eCfRWK7XDYAAAFtBqjF7AEAAA-qAkfNdjA,dc:iad,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:IqYtM591c6g4LbNYQkAGZGwAAAFtBqjHrgEAAA-qAhP3pL0,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:46	DEBUG	LeanPlumReportingRunnable     	Saved event: EVENT_HEALTH_AD_LOAD with info double and info map 
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:46","type":"ad_load","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"AdMob","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Banner","ad_format":"320x50","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","line_item_id":"dbbd310b39424a47af94824223e8f79c","ad_unit_id":"4bada45f662647c8987197dba53d18e4","cpm":5.5,"keywords":"amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IqK1rglx6m4D9eCfRWK7XDYAAAFtBqjF7AEAAA-qAkfNdjA,dc:iad,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:IqYtM591c6g4LbNYQkAGZGwAAAFtBqjHrgEAAA-qAhP3pL0,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner_1 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 1: textnow_android_320x50_banner_1 success: true 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner_2 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 2: textnow_android_320x50_banner_2 success: true 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                	Request pre-cache uber media ad for placementId: textnow_android_320x50_banner_3 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             		Requested ubermedia ad pre cache tier 3: textnow_android_320x50_banner_3 success: true 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Use last known keywords:  m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Use last known keywords:  m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Use last known keywords:  m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00 
+2019-09-06 06:59:46	DEBUG	UberMediaUtils                			Use last known keywords:  m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00 
+2019-09-06 06:59:46	DEBUG	TNBannerAdRotator             	Updating mopub object 39462079 with keywords:  m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00 
+2019-09-06 06:59:46	DEBUG	TNMoPubView                   	Finished loading ad unit: 4bada45f662647c8987197dba53d18e4. Load took 2391ms. 
+2019-09-06 06:59:46	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: Ad Loaded Event 
+2019-09-06 06:59:46	DEBUG	TNMoPubView                   	Ad impression 39462079 trackNativeImpression 
+2019-09-06 06:59:46	DEBUG	TNMoPubViewRevenue            	ID 39462079 Ad source ID null Ad unit ID null Creative ID null CPM null Reporting:  EVENT_HEALTH_AD_SHOW 
+2019-09-06 06:59:46	DEBUG	LeanPlumReportingRunnable     	Saved event: Ad Loaded Event with info map 
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:46","type":"ad_show","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"","ad_platform":"","ad_name":"","ad_placement":"","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","line_item_id":"","ad_unit_id":"4bada45f662647c8987197dba53d18e4","cpm":"","keywords":"m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:46	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: EVENT_HEALTH_AD_LOAD 
+2019-09-06 06:59:46	DEBUG	TNMoPubViewRevenue            	ID 39462079 Ad source ID dbbd310b39424a47af94824223e8f79c Ad unit ID 4bada45f662647c8987197dba53d18e4 Creative ID 3c96a07cf7074513ae579335f4d150ac CPM 5.5 Reporting:  EVENT_HEALTH_AD_LOAD 
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:46","type":"request","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"AdMob","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Banner","ad_format":"320x50","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","keywords":"m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:46","type":"ad_load","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"AdMob","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Banner","ad_format":"320x50","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","line_item_id":"dbbd310b39424a47af94824223e8f79c","ad_unit_id":"4bada45f662647c8987197dba53d18e4","cpm":5.5,"keywords":"m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 06:59:46	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:46	DEBUG	LeanPlumReportingRunnable     	Saved event: EVENT_HEALTH_AD_LOAD with info double and info map 
+2019-09-06 06:59:46	DEBUG	AmazonAdsHelper               			Amazon Ad successfully loaded ad with keywords. Unit: bd7a9bd5-9462-4579-b2e1-dd0d712393f8 Tier: 0 keywords: amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IllFvByM3wd7DFVhX3JwO2oAAAFtBqjJGQEAAA-qAm3Fw0Q,dc:iad, 
+2019-09-06 06:59:46	DEBUG	AmazonAdsHelper               			Amazon Ad successfully loaded ad with keywords. Unit: 7cd544ff-b318-4dce-909c-922e4b46c87f Tier: 1 keywords: amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:Il0P0crgEp4WwWtfSoPhwGIAAAFtBqjKWQEAAA-qAnWFryw,dc:iad, 
+2019-09-06 06:59:47	DEBUG	AmazonAdsHelper               			Amazon Ad successfully loaded ad with keywords. Unit: bd7a9bd5-9462-4579-b2e1-dd0d712393f8 Tier: 0 keywords: amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:Igt-ViUNqPc-JuKWClzWQ2gAAAFtBqjMNQEAAA-qAtszOG0,dc:iad, 
+2019-09-06 06:59:47	DEBUG	AmazonAdsHelper               			Amazon Ad successfully loaded ad with keywords. Unit: 7cd544ff-b318-4dce-909c-922e4b46c87f Tier: 1 keywords: amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:In80zncemKApWFC-Piux0eEAAAFtBqjOPAEAAA-qAjmYePc,dc:iad, 
+2019-09-06 06:59:48	DEBUG	AmazonAdsHelper               			Amazon Ad successfully loaded ad with keywords. Unit: bd7a9bd5-9462-4579-b2e1-dd0d712393f8 Tier: 0 keywords: amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IlZKMP0lQ5NvkFjaNTo7_UgAAAFtBqjQKgEAAA-qAgZBzok,dc:iad, 
+2019-09-06 06:59:48	DEBUG	AmazonAdsHelper               			Amazon Ad successfully loaded ad with keywords. Unit: 7cd544ff-b318-4dce-909c-922e4b46c87f Tier: 1 keywords: amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:Ip7b1_NxqOC41erPk1_ViUEAAAFtBqjR1wEAAA-qAhwzrhs,dc:iad, 
+2019-09-06 06:59:53	DEBUG	TNBannerAdRotator             	refreshAds 
+2019-09-06 06:59:53	DEBUG	TNBannerAdRotator             	loading ads count: 0 
+2019-09-06 06:59:53	DEBUG	TNBannerAdRotator             	stale ads count: 0 
+2019-09-06 06:59:53	DEBUG	TNBannerAdRotator             	ready ads count: 3 
+2019-09-06 06:59:53	DEBUG	TNBannerAdRotator             	ADD STALE MoPubView #: 0 
+2019-09-06 06:59:53	DEBUG	TNBannerAdRotator             	refreshAds returned MoPubView #: 0 
+2019-09-06 06:59:53	DEBUG	AdsManager                    	showing next MoPubView # 0 
+2019-09-06 06:59:53	DEBUG	AdsManager                    	Ad view added com.mopub.mobileads.TNMoPubViewCustom{e4a0d01 V.E...... ......ID 0,0-0,0 #7f0a00af app:id/adview} 
+2019-09-06 06:59:53	DEBUG	AdsManager                    	Ad view moves to front com.mopub.mobileads.TNMoPubViewCustom{e4a0d01 V.E...... ......ID 0,0-0,0 #7f0a00af app:id/adview} 
+2019-09-06 06:59:53	DEBUG	TNMoPubView                   	Ad impression 239734017 trackEffectiveImpression 
+2019-09-06 06:59:53	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: EVENT_HEALTH_AD_SHOW_EFFECTIVE 
+2019-09-06 06:59:53	DEBUG	TNMoPubViewRevenue            	ID 239734017 Ad source ID dbbd310b39424a47af94824223e8f79c Ad unit ID 4bada45f662647c8987197dba53d18e4 Creative ID 3c96a07cf7074513ae579335f4d150ac CPM 5.5 Reporting:  EVENT_HEALTH_AD_SHOW_EFFECTIVE 
+2019-09-06 06:59:53	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:53","type":"ad_show_effective","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"AdMob","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Banner","ad_format":"320x50","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","line_item_id":"dbbd310b39424a47af94824223e8f79c","ad_unit_id":"4bada45f662647c8987197dba53d18e4","cpm":5.5,"keywords":"amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b:Iqxna4GTQD_zdvI9rDWQAkMAAAFtBqjDSAEAAA-qApM8qxY,dc:iad,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p3,amznrdr:default,amznp:1pnuhog,amzn_b_1:IreFTMraOOYGsgnWoSKgKmEAAAFtBqjEhwEAAA-qAnGCV3k,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 06:59:53	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:53	DEBUG	ConversationListNativeAd      	Can load ConversationListNativeAd ad: true 
+2019-09-06 06:59:53	DEBUG	LeanPlumReportingRunnable     	Saved event: EVENT_HEALTH_AD_SHOW_EFFECTIVE with info double and info map 
+2019-09-06 06:59:53	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 12:59:53","type":"request","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Native In Stream","ad_format":"1x1","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","keywords":""}
+2019-09-06 06:59:53	DEBUG	SaveSingleRecordRunnableBase  	 
+2019-09-06 06:59:53	DEBUG	TNNativeAd                    	ConversationListNativeAd making request. 
+2019-09-06 06:59:55	DEBUG	TNNativeAd                    	Flurry ConversationListNativeAd Loaded fetch success. 
+2019-09-06 06:59:56	DEBUG	TNDrawerActivity              	Drawer opened 
+2019-09-06 06:59:56	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: DRAWER 
+2019-09-06 06:59:56	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: Drawer - Open 
+2019-09-06 06:59:56	DEBUG	LeanPlumReportingRunnable     	Saved state: DRAWER without info 
+2019-09-06 06:59:56	DEBUG	LeanPlumReportingRunnable     	Saved event: Drawer - Open without info 
+2019-09-06 06:59:56	DEBUG	FreeWirelessUtils             	isUserPremium = false, wirelessUser = false, isNetworkServiceAvailable = true, isFreeCellular = false, isTalkAndText = false, isDataSubscriptionPlan = false, isUnlimitedDataSubscriptionPlan = false, isCellularCapable = true 
+2019-09-06 06:59:56	DEBUG	CoachMarkUtils                	Not showing coach marks, user has existing conversations 
+2019-09-06 06:59:58	DEBUG	TNDrawerActivity              	Drawer closed 
+2019-09-06 06:59:58	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: Drawer - Close 
+2019-09-06 06:59:58	DEBUG	LeanPlumReportingRunnable     	Saved event: Drawer - Close without info 
+2019-09-06 06:59:58	DEBUG	CoachMarkUtils                	Not showing coach marks, user has existing conversations 
+2019-09-06 06:59:59	INFO	TNTaskService                 	Starting to run task without service (53):GetNewMessagesTask 
+2019-09-06 06:59:59	WARN	FeatureToggle                 	configuration of Feature Toggle pull_to_refresh_settings is empty 
+2019-09-06 06:59:59	WARN	FeatureToggle                 	return default value 
+2019-09-06 06:59:59	DEBUG	AbstractHttpCommand           	MessagesGet URI: https://api.textnow.me/api2.0/users/leozinn666/messages?client_type=TN_ANDROID&client_id=44e8fdb155addc974d36e737155c7cd492712f55cb262f0x3800401004d67b54&get_all=1&start_message_id=28849640906&direction=future&page_size=30&signature=1eb85b84404e87662273ccb96e68d5dd 
+2019-09-06 06:59:59	DEBUG	AbstractHttpCommand           	MessagesGet Request took 93ms 
+2019-09-06 06:59:59	VERBOSE	AbstractHttpCommand           	Request to: api.textnow.me 
+2019-09-06 06:59:59	VERBOSE	AbstractHttpCommand           	Status: 200
+2019-09-06 06:59:59	VERBOSE	AbstractHttpCommand           	Response: {"status":{"user_timestamp":"2019-09-05T17:14:28Z","settings_version":"1104","features_version":"4167400013","latest_message_id":28849640906,"num_devices":2},"messages":[]} 
+2019-09-06 06:59:59	INFO	AbstractHttpCommand           	MessagesGet request made 
+2019-09-06 06:59:59	DEBUG	TextNow                       	Bulk inserting 0 messages into database 
+2019-09-06 06:59:59	INFO	NotificationHelper            	Updating badge count to 0 
+2019-09-06 06:59:59	INFO	TNTaskService                 	Finished running task without service (53):GetNewMessagesTask in 141ms 
+2019-09-06 06:59:59	INFO	TextNow                       	MainActivity received BROADCAST task:GetNewMessagesTask taskId:53 errorOccurred:false statusCode:200 errorCode:null 
+2019-09-06 06:59:59	DEBUG	MainActivity                  	Passed task to UI Controller 
+2019-09-06 07:00:03	DEBUG	TNBannerAdRotator             	refreshAds 
+2019-09-06 07:00:03	DEBUG	TNBannerAdRotator             	loading ads count: 0 
+2019-09-06 07:00:03	DEBUG	TNBannerAdRotator             	stale ads count: 1 
+2019-09-06 07:00:03	DEBUG	TNBannerAdRotator             	ready ads count: 2 
+2019-09-06 07:00:03	DEBUG	TNBannerAdRotator             	Refreshing and remove from stale queue for MoPubView #: 0 
+2019-09-06 07:00:03	DEBUG	TNBannerAdRotator             	ADD STALE MoPubView #: 1 
+2019-09-06 07:00:03	DEBUG	TNBannerAdRotator             	refreshAds returned MoPubView #: 1 
+2019-09-06 07:00:03	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  bd7a9bd5-9462-4579-b2e1-dd0d712393f8 
+2019-09-06 07:00:03	DEBUG	AmazonAdsHelper               			Attempt to load Amazon Ad with placementID:  7cd544ff-b318-4dce-909c-922e4b46c87f 
+2019-09-06 07:00:03	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_bidder:openx unit textnow_android_320x50_banner 
+2019-09-06 07:00:03	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_version:0.6.6 unit textnow_android_320x50_banner 
+2019-09-06 07:00:03	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_price:1.00 unit textnow_android_320x50_banner 
+2019-09-06 07:00:03	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_bidder_1:openx unit textnow_android_320x50_banner_1 
+2019-09-06 07:00:03	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_version_1:0.6.6 unit textnow_android_320x50_banner_1 
+2019-09-06 07:00:03	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_price_1:1.00 unit textnow_android_320x50_banner_1 
+2019-09-06 07:00:03	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_bidder_2:openx unit textnow_android_320x50_banner_2 
+2019-09-06 07:00:03	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_version_2:0.6.6 unit textnow_android_320x50_banner_2 
+2019-09-06 07:00:03	DEBUG	UberMediaUtils                			Appended uber media keyword: ,um_price_2:1.00 unit textnow_android_320x50_banner_2 
+2019-09-06 07:00:03	DEBUG	UberMediaUtils                			Use last known keywords:  amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:Igt-ViUNqPc-JuKWClzWQ2gAAAFtBqjMNQEAAA-qAtszOG0,dc:iad,,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:In80zncemKApWFC-Piux0eEAAAFtBqjOPAEAAA-qAjmYePc,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00 
+2019-09-06 07:00:03	DEBUG	TNBannerAdRotator             	Updating mopub object 239734017 with keywords:  amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:Igt-ViUNqPc-JuKWClzWQ2gAAAFtBqjMNQEAAA-qAtszOG0,dc:iad,,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:In80zncemKApWFC-Piux0eEAAAFtBqjOPAEAAA-qAjmYePc,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00 
+2019-09-06 07:00:03	DEBUG	TNBannerAdRotator             	Loading MoPubView #: 0 
+2019-09-06 07:00:03	DEBUG	TNMoPubView                   	Ad unit: 4bada45f662647c8987197dba53d18e4 requested 
+2019-09-06 07:00:03	DEBUG	AdsManager                    	showing next MoPubView # 1 
+2019-09-06 07:00:03	DEBUG	AdsManager                    	Ad view added com.mopub.mobileads.TNMoPubViewCustom{f9bd1e2 V.E...... ......ID 0,0-0,0 #7f0a00af app:id/adview} 
+2019-09-06 07:00:03	DEBUG	AdsManager                    	Ad view moves to front com.mopub.mobileads.TNMoPubViewCustom{f9bd1e2 V.E...... ......ID 0,0-0,0 #7f0a00af app:id/adview} 
+2019-09-06 07:00:03	DEBUG	TNMoPubView                   	Ad impression 261870050 trackEffectiveImpression 
+2019-09-06 07:00:03	DEBUG	LeanPlumHelper                	Starting LeanPlumReportingRunnable for: EVENT_HEALTH_AD_SHOW_EFFECTIVE 
+2019-09-06 07:00:03	DEBUG	TNMoPubViewRevenue            	ID 261870050 Ad source ID dbbd310b39424a47af94824223e8f79c Ad unit ID 4bada45f662647c8987197dba53d18e4 Creative ID 3c96a07cf7074513ae579335f4d150ac CPM 5.5 Reporting:  EVENT_HEALTH_AD_SHOW_EFFECTIVE 
+2019-09-06 07:00:03	DEBUG	ConversationListNativeAd      	Can load ConversationListNativeAd ad: true 
+2019-09-06 07:00:03	DEBUG	SaveSingleRecordRunnableBase  	adtracker-prod Record saved: {"username":"leozinn666","gaid":"88a7aae7-b707-475c-9006-fea252d7b558","android_id":"0194cc8b0003f47f","mac_address":"02:00:00:00:00:00","ip_address":"","timestamp":"2019-09-06 13:00:03","type":"ad_show_effective","client_type":"TN_ANDROID","client_version":"6.40.0.1","ad_network":"AdMob","ad_platform":"","ad_name":"","ad_placement":"","ad_type":"Banner","ad_format":"320x50","experiment_id":"","experiment_variant":"","experiment_name":"","adid":"288f973c121cd60b7ca99959900d47f0","line_item_id":"dbbd310b39424a47af94824223e8f79c","ad_unit_id":"4bada45f662647c8987197dba53d18e4","cpm":5.5,"keywords":"amzn_h:aax.amazon-adsystem.com,amznslots:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b:IqK1rglx6m4D9eCfRWK7XDYAAAFtBqjF7AEAAA-qAkfNdjA,dc:iad,amzn_h_1:aax.amazon-adsystem.com,amznslots_1:m320x50p2,amznrdr:default,amznp:1pnuhog,amzn_b_1:IqYtM591c6g4LbNYQkAGZGwAAAFtBqjHrgEAAA-qAhP3pL0,dc:iad,m_app_version:6.40.0.1,m_platform:android,um_bidder:openx,um_version:0.6.6,um_price:1.00,um_bidder_1:openx,um_version_1:0.6.6,um_price_1:1.00,um_bidder_2:openx,um_version_2:0.6.6,um_price_2:1.00,um_bidder_3:openx,um_version_3:0.6.6,um_price_3:1.00"}
+2019-09-06 07:00:03	DEBUG	SaveSingleRecordRunnableBase  	 
